@@ -4,7 +4,7 @@ import { Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'rea
 
 export default function App() {
 	const [quantity, setQuantity] = useState(1);
-  
+
 	return (
 		<View style={styles.container}>
 			<View style={styles.topComponent}>
